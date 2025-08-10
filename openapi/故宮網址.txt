@@ -1,0 +1,97 @@
+https://oidc.sso.edu.tw/oidc/v1/
+
+grant_type:authorization_code&
+code=i1WsRn1uB1&
+client_id:886c8ba854fca0eb58061a2d72920650
+
+ODg2YzhiYTg1NGZjYTBlYjU4MDYxYTJkNzI5MjA2NTA6Y2ExOTBhY2VlNmU1YjlmYTQ2ZDY3NDQyNWVkN2RiMjIzMjkyMWQ5YTg5Zjk2OGNhZjBjNDk3NWFhMmFjOTJiNg==
+
+https://oidc.sso.edu.tw/oidc/v1/azp?response_type=code&client_id=886c8ba854fca0eb58061a2d72920650&redirect_uri=https%3A%2F%2Fipalace.npm.edu.tw%2Fedu%2Fcallback&scope=openid+email+profile&state=2&nonce=1
+
+
+https://ipalace.npm.edu.tw/edu/callback?code=v769Tc_VFkI57jqtaFaCKbvw1boTo49jOVvdBT7KPNA&state=2&session_state=2070cd3576776d0ca763bff4d33768443f14e6af0f7d5d341eeeaf05fbc36064.594c77b7669ed5b6a4254a790e8a8a4d
+https://ipalace.npm.edu.tw/edu/callback?code=dngcOF7HfTnN-cZCpRdx2MEbkf_v6TjjlXni03VG9s0&state=2&session_state=2697b68ef3f48222123305aea2e055a7cd0e68abd86a3989be7a2c569cb90c4c.646e26544a6fa6ec13b96923f445b531
+
+
+{"access_token":"ofn4rYNf6rDz2K434m99o3m5uKPgGRK3BNMjFLe3xss","refresh_token":"aKOTk6TUSFafv9cAgYmPk1uBI2acJW1uLq3Bp-HXfOM","scope":"openid email profile","id_token":"eyJraWQiOiJNT0VTSUdOIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIzYzViNzdjMy1hYjJiLTRjNTYtYmFlNC1lYWVjMTFkNTkzMTciLCJhdWQiOiI4ODZjOGJhODU0ZmNhMGViNTgwNjFhMmQ3MjkyMDY1MCIsImlzcyI6Imh0dHBzOlwvXC9vaWRjLnNzby5lZHUudHciLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJtb2V0ZXN0Lm50Y3RzdHUiLCJleHAiOjE2MzcwNzg2NDIsImlhdCI6MTYzNzA3NTA0Miwibm9uY2UiOiIxIiwiZW1haWwiOiJzYW5kYm94MkBtYWlsLmVkdS50dyJ9.Kzc7SYOLIl5RXEDk0E0s4Bb6-JrI5CZRMIRwy7DFfnF9B-y_6Yq3M9YIpgKYDYFcsff9ShGatg-S5NbeUs1cehf3MHlh9H-YljN4ahz5AuAhHkCEsJP4MGk9M4LX0BzSsyU3T5jdyENS1qCGG-nihIbo8iIIiZqkLEP8jp_Yl6tJsbXm3PmztpKMQHlp5mBGt3ezd7feq-hBoRJ5aNy7DxH0zTd0ZJkBDGOU2l7JDguI_01uF19yo2nbKCSyyiho1N9wl84MGn3-hm3TZVL6Cwe6qXF_3xPgQ3tPQ3A3yhWi85_BX14GSoXuRBfSZ8T1YrwXPq74T7e7rLMK__TW-Q","token_type":"Bearer","expires_in":3600}
+
+
+{
+    "sub": "3c5b77c3-ab2b-4c56-bae4-eaec11d59317",
+    "email_verified": true,
+    "name": "學生一",
+    "preferred_username": "moetest.ntctstu",
+    "given_name": "生一",
+    "family_name": "學",
+    "email": "moetest.ntctstu@mail.edu.tw"
+}
+https://oidc.sso.edu.tw/moeresource/api/v1/oidc/eduinfo
+{
+    "schoolid": "084748",
+    "sub": "3c5b77c3-ab2b-4c56-bae4-eaec11d59317",
+    "titles": [
+        {
+            "schoolid": "084748",
+            "titles": [
+                "學生"
+            ]
+        }
+    ],
+    "classinfo": [
+        {
+            "year": "000",
+            "semester": "00",
+            "schoolid": "084748",
+            "grade": "4",
+            "classno": "6",
+            "classtitle": "4年6班"
+        }
+    ]
+}
+
+{
+    "schoolid": "084748",
+    "sub": "a56f0379-ae00-441e-b88d-c5f9b0dfe675",
+    "titles": [
+        {
+            "schoolid": "080000",
+            "titles": [
+                "調府教師",
+                "教師"
+            ]
+        },
+        {
+            "schoolid": "084748",
+            "titles": [
+                "學校管理者",
+                "導師",
+                "總務主任",
+                "資安聯絡人",
+                "學校管理者",
+                "導師",
+                "總務主任",
+                "資安聯絡人",
+                "單位管理者",
+                "教師"
+            ]
+        }
+    ],
+    "classinfo": [
+        {
+            "year": "000",
+            "semester": "00",
+            "schoolid": "080000",
+            "grade": "0",
+            "classno": "0",
+            "classtitle": "0年0班"
+        },
+        {
+            "year": "000",
+            "semester": "00",
+            "schoolid": "084748",
+            "grade": "0",
+            "classno": "0",
+            "classtitle": "0年0班"
+        }
+    ]
+}

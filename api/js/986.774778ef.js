@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknpm_frontend"]=self["webpackChunknpm_frontend"]||[]).push([[986],{3986:function(t,e,r){r.r(e),r.d(e,{default:function(){return l}});var n=function(){var t=this,e=t._self._c;return e("div")},s=[],u={async mounted(){try{var t=await this.$api.oAuthLogin({Code:this.$route.query.code});this.$user.setUser(t),this.$api.setToken(t.t),this.$router.replace("/")}catch(e){console.error(e),10==e.Status?alert("此帳號已被鎖定，請洽客服人員"):alert("登入失敗，帳號或密碼錯誤")}}},o=u,a=r(1001),i=(0,a.Z)(o,n,s,!1,null,null,null),l=i.exports}}]);
+//# sourceMappingURL=986.774778ef.js.map

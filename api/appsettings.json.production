@@ -1,0 +1,27 @@
+{
+  "Database": {
+    "ConnectionString": "server=api.mitsuki.work;database=npm;uid=snt;pwd=lEruTO14Qac2;CharSet=utf8mb4;"
+  },
+  "Backend": {
+    "UserName": "admin",
+    "Password": "1234",
+    "LastUpdateTime": "2021-12-16T17:23:03.6909116+08:00"
+  },
+  "CDNRoot": "../cdn",
+  "OIDC": {
+    "Host": "https://oidc.tanet.edu.tw/",
+    "OpenAPIHost": "https://oidc.tanet.edu.tw/",
+    "ClientID": "1375c7f9870aa15277248bf8b4bb4e9a",
+    "ClientSecret": "fa77fda4149644996319ef86c18aa04a820770623e745577f9ec518af8d2adb6",
+    "RedirectURI": "https://ipalace.npm.edu.tw/edu/callback"
+  },
+  "Email": {
+    "UserName": "59023ac2c1ad35",
+    "Password": "01420dbf5e8a94",
+    "Host": "smtp.mailtrap.io",
+    "Port": 2525,
+    "SenderAddress": "no-reply@test.com"
+  },
+  "FrontendUrl": "https://127.0.0.1",
+  "CDNUrl": "http://127.0.0.1:44322"
+}
