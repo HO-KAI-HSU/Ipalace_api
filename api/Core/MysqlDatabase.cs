@@ -11,7 +11,7 @@ namespace com.leslie.Core.ORM.MySql
 
         public Database(bool open = true)
         {
-            Connection = new MySqlConnection(ConnectionString);     
+            Connection = new MySqlConnection(ConnectionString);
 
             if (open)
             {
