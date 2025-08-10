@@ -3,3 +3,4 @@ date : 2025-08-10
 version : 1.0.0
 commit : 
 1. init : first commit
+2. fix : add backend model and api to version control
